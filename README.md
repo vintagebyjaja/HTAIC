@@ -1,28 +1,28 @@
-# Hampton University Technology & AI Center — Marketing Site Starter
+# Hampton University Technology & AI Center — Updated Website Starter
 
-Clean React/Vite starter for the HTAIC fundraising and marketing experience.
+Vite + React starter prepared for GitHub/Vercel.
 
-## Locked visual/content rules
-- The supplied Hampton University logos are included in `public/images/` and should be used as the brand source assets.
-- The Design Vision statement in `src/main.jsx` is the supplied project statement.
-- `18–68` is Hampton student/alumni tradition referencing the 1868 founding year only. Do not use it as a metric, count, technology claim, fundraising statistic, or project KPI.
-- The Hampton Student Center image is the only project-building exterior. Do not substitute or generate a different exterior. Alternate treatments may only stylize that same building as a hologram/blueprint/sketch.
-- `hampton-campus-waterfront.png` is the exact supplied campus scenery used for the animated “coming to campus” portal transition. Keep the scenery photograph itself unchanged.
+## This update includes
+- 24 newly supplied visual assets in `public/images/new-01.png` through `new-24.png`.
+- Opening-only campus arrival/video portal. Normal navigation does not replay the portal.
+- Architectural hologram presentation using the supplied hologram concept artwork.
+- Explore the Center space-by-space editorial cards with Gallery and Full Video actions.
+- Technology catalog styled like a premium product browser with no pricing.
+- Dedicated Esports section.
+- Dedicated Safety + Standards section, including robotics/drone cage.
+- Video experience cards ready to connect to Cloudinary or another video host.
 
-## Navigation
-Home, Vision, Spaces, Technology, Impact, Videos, News, Contact, and Invest are wired as clickable views. The portal transition animates a boat traveling across the Hampton waterfront before the next screen loads.
-
-## Video hosting
-The Videos screen is Cloudinary-ready. In `src/main.jsx`, replace `YOUR_CLOUD_NAME` and each sample `video-N.mp4` source with the Cloudinary delivery URL for the final Hampton videos. Do not commit large production video files to GitHub.
-
-## Donation
-The Invest button opens the starter Invest view. Replace the `MAKE A GIFT` placeholder `href="#"` with Hampton University's approved donation URL before publishing.
-
-## Run locally
+## Run
 ```bash
 npm install
 npm run dev
 ```
 
 ## Deploy
-Push the folder to GitHub and import the repository into Vercel. Vite's production build command is `npm run build`; output directory is `dist`.
+Push the folder contents to GitHub, then import the repository into Vercel using the Vite preset.
+
+## Video integration
+The opening portal currently uses the Hampton waterfront image as a visual placeholder and explicitly marks the slot for the final driving-to-campus video. Keep large video files outside GitHub/Vercel and connect hosted video delivery URLs when ready.
+
+## Asset note
+Some supplied images are intentionally being used as placeholders. They can be removed/reassigned in the next revision without changing the site structure.
