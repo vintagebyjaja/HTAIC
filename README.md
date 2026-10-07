@@ -1,28 +1,9 @@
-# Hampton University Technology & AI Center — Updated Website Starter
+# Hampton University Technology & AI Center Website
 
-Vite + React starter prepared for GitHub/Vercel.
+GitHub/Vercel-ready React + Vite website.
 
-## This update includes
-- 24 newly supplied visual assets in `public/images/new-01.png` through `new-24.png`.
-- Opening-only campus arrival/video portal. Normal navigation does not replay the portal.
-- Architectural hologram presentation using the supplied hologram concept artwork.
-- Explore the Center space-by-space editorial cards with Gallery and Full Video actions.
-- Technology catalog styled like a premium product browser with no pricing.
-- Dedicated Esports section.
-- Dedicated Safety + Standards section, including robotics/drone cage.
-- Video experience cards ready to connect to Cloudinary or another video host.
-
-## Run
-```bash
-npm install
-npm run dev
-```
-
-## Deploy
-Push the folder contents to GitHub, then import the repository into Vercel using the Vite preset.
-
-## Video integration
-The opening portal currently uses the Hampton waterfront image as a visual placeholder and explicitly marks the slot for the final driving-to-campus video. Keep large video files outside GitHub/Vercel and connect hosted video delivery URLs when ready.
-
-## Asset note
-Some supplied images are intentionally being used as placeholders. They can be removed/reassigned in the next revision without changing the site structure.
+## Media lock for this build
+- Website photo library contains only the latest user-uploaded HTAiC photo batch plus the exact Hampton navigation logo.
+- Previous website photo assets were removed from `public/images`.
+- Videos page contains exactly three selected video cards: Hampton University Technology & AI Center Introduction, AI Nursing Simulation, and Esports Experience.
+- The supplied local MP4 is connected to the Introduction card. The other two selected cards remain visible without inventing video URLs that were not supplied.
